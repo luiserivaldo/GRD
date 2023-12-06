@@ -1,0 +1,14 @@
+C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\obj\Debug\net8.0\GRDTransportCarbonisationTestLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\obj\Debug\net8.0\GRDTransportCarbonisationTestLogic.AssemblyInfoInputs.cache
+C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\obj\Debug\net8.0\GRDTransportCarbonisationTestLogic.AssemblyInfo.cs
+C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\obj\Debug\net8.0\GRDTransportCarbonisationTestLogic.csproj.CoreCompileInputs.cache
+C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\bin\Debug\net8.0\GRDTransportCarbonisationTestLogic.exe
+C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\bin\Debug\net8.0\GRDTransportCarbonisationTestLogic.deps.json
+C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\bin\Debug\net8.0\GRDTransportCarbonisationTestLogic.runtimeconfig.json
+C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\bin\Debug\net8.0\GRDTransportCarbonisationTestLogic.dll
+C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\bin\Debug\net8.0\GRDTransportCarbonisationTestLogic.pdb
+C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\obj\Debug\net8.0\GRDTransportCarbonisationTestLogic.dll
+C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\obj\Debug\net8.0\refint\GRDTransportCarbonisationTestLogic.dll
+C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\obj\Debug\net8.0\GRDTransportCarbonisationTestLogic.pdb
+C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\obj\Debug\net8.0\GRDTransportCarbonisationTestLogic.genruntimeconfig.cache
+C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\obj\Debug\net8.0\ref\GRDTransportCarbonisationTestLogic.dll

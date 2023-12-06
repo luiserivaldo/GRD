@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GRDTransportCarbonisationTestLogic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9507f0b0c7743f944802d3f7cf0255cd6c97f987")]
 [assembly: System.Reflection.AssemblyProductAttribute("GRDTransportCarbonisationTestLogic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GRDTransportCarbonisationTestLogic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,43 @@
+declare vehicle classes
+(sector, name, distance travelled in miles, co2 per mile)
+
+declare policy class
+(id, budget, implementation time in years, duration in years, bool active?)
+
+policy logic:
+get id {
+modify transport class values, alter environment points}
+
+carbonEmission total = vehicle distace * co2permile
+
+currentBudget = 1000
+yearlyBudget = 100
+bonusBudget = 300
+startYear = 2021
+
+while year < 2030:
+	get player input (implemment policy OR skip time)
+	if implement policy {
+		player input: "id"
+		if "id" match to policy {
+			if budget > policyCost{ 
+				execute policy;
+				disable policy (set bool to inactive);
+				budget = budget - policyCost
+			}
+			else {
+				cout: YOU DONT HAVE ENOUGH MONEY
+			}
+	if environment points >= milestone {
+		currentBudget = currentBudget + yearlyBudget + bonusBudget
+		}
+		else {
+		currentBudget = currentBudget + yearlyBudget
+		}
+	year += 1
+
+if carbonEmissionTotal <= goal:
+	cout: YOU WIN
+else:
+	cout: YOU LOSE
+	

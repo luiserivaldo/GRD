@@ -12,3 +12,4 @@ C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestL
 C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\obj\Debug\net8.0\GRDTransportCarbonisationTestLogic.pdb
 C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\obj\Debug\net8.0\GRDTransportCarbonisationTestLogic.genruntimeconfig.cache
 C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\obj\Debug\net8.0\ref\GRDTransportCarbonisationTestLogic.dll
+C:\Users\luise\OneDrive\Documents\C# Projects\GRD\GRDTransportCarbonisationTestLogic\obj\Debug\net8.0\GRDTransportCarbonisationTestLogic.sourcelink.json

@@ -1,58 +1,39 @@
-public class Vehicle {
-    // Class properties
-    public string VehicleSector { get; set; }
-    public string VehicleName { get; set; }
-    public int MilesTravelled { get; set; }
-    public virtual float CarbonEmissionsPerMile { get; set; }
+using System.Security.Cryptography.X509Certificates;
+using System.Diagnostics;
+using System;
 
-    // Vehicle Constructor
-    public Vehicle(string vehicleSector, string vehicleName, int milesTravelled, float carbonEmissionsPerMile)
-    {
-        VehicleSector = vehicleSector;
-        VehicleName = vehicleName;
-        MilesTravelled = milesTravelled;
-        CarbonEmissionsPerMile = carbonEmissionsPerMile;
-    }
-}
+namespace TransportDecarbonisation {
+    class Program {
+        public int currentudget = 1000;
+        public int yearlyBudget = 100; // Budget received per year
+        public int bonusBudget = 300; // Budget received if milestone is achieved per year
+        public int startingYear = 2021;
+        public int majorMilestoneYear1 = 2030;
+        public int majorMilestoneYear2 = 2050;
 
-public class ElectricVehicle : Vehicle {
-    // Use parent Vehicle class as constructor
-    public ElectricVehicle(string vehicleSectorsector, string vehicleName, int milesTravelled, float carbonEmissionsPerMile)
-        : base(vehicleSectorsector, vehicleName, milesTravelled, carbonEmissionsPerMile)
-    {
-    }
+        static void Main () {
+            // List of Vehicles as Objects
+            Vehicle rail = new Vehicle("Public", "Rail", 720, 0.02f);
+            Vehicle car = new Vehicle("Private", "Car", 5086, 0.291f);
+            ElectricVehicle electricCar = new ElectricVehicle("Private", "Electric Car", 5086, 0.291f);
+            Vehicle bus = new Vehicle("Public", "Bus", 385, 0.044f);
+            ElectricVehicle electricBus = new ElectricVehicle("public", "EV Bus", 385, 0.044f);
+            Vehicle bicycle = new Vehicle("Private", "Bicycle", 57, 0);
+            Vehicle walking = new Vehicle("Private", "Walking", 87, 0);
 
-    // modify carbonEmissionsPerMile property to be 30% of the parent class value
-    public override float CarbonEmissionsPerMile
-    {
-        get { return (float)(base.CarbonEmissionsPerMile * 0.3); }
-        set { base.CarbonEmissionsPerMile = value; }
-    }
-}
+            // [FOR TESTING] Output the contents of "Car"
+            Console.WriteLine("Car:");
+            Console.WriteLine($"VehicleSector: {car.VehicleSector}");
+            Console.WriteLine($"VehicleName: {car.VehicleName}");
+            Console.WriteLine($"MilesTravelled: {car.MilesTravelled}");
+            Console.WriteLine($"CarbonEmissionsPerMile: {car.CarbonEmissionsPerMile}");
 
-class Program {
-    static void Main () {
-        // List of Vehicles as Objects
-        Vehicle rail = new Vehicle("Public", "Rail", 720, 0.02f);
-        Vehicle car = new Vehicle("Private", "Car", 5086, 0.291f);
-        ElectricVehicle electricCar = new ElectricVehicle("Private", "Electric Car", 5086, 0.291f);
-        Vehicle bus = new Vehicle("Public", "Bus", 385, 0.044f);
-        ElectricVehicle electricBus = new ElectricVehicle("public", "EV Bus", 385, 0.044f);
-        Vehicle bicycle = new Vehicle("Private", "Bicycle", 57, 0);
-        Vehicle walking = new Vehicle("Private", "Walking", 87, 0);
-
-        // Accessing the properties of "Car"
-        Console.WriteLine("Car:");
-        Console.WriteLine($"VehicleSector: {car.VehicleSector}");
-        Console.WriteLine($"VehicleName: {car.VehicleName}");
-        Console.WriteLine($"MilesTravelled: {car.MilesTravelled}");
-        Console.WriteLine($"CarbonEmissionsPerMile: {car.CarbonEmissionsPerMile}");
-
-        // Accessing the properties of "ElectricCar"
-        Console.WriteLine("\nElectricCar:");
-        Console.WriteLine($"VehicleSector: {electricCar.VehicleSector}");
-        Console.WriteLine($"VehicleName: {electricCar.VehicleName}");
-        Console.WriteLine($"MilesTravelled: {electricCar.MilesTravelled}");
-        Console.WriteLine($"CarbonEmissionsPerMile: {electricCar.CarbonEmissionsPerMile}");
+            // [FOR TESTING] Output the contents of "ElectricCar"
+            Console.WriteLine("\nElectricCar:");
+            Console.WriteLine($"VehicleSector: {electricCar.VehicleSector}");
+            Console.WriteLine($"VehicleName: {electricCar.VehicleName}");
+            Console.WriteLine($"MilesTravelled: {electricCar.MilesTravelled}");
+            Console.WriteLine($"CarbonEmissionsPerMile: {electricCar.CarbonEmissionsPerMile}");
+        }
     }
 }
